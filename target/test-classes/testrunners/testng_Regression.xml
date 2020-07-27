@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verizon Wireless Regresiion Test Suite">
+  <parameter name="browser" value="chrome"/>
+  <test name="Verizon Wireless Regresiion Test Suite">
+    <classes>
+      <class name="com.qa.verizonwireless.tests.PhoneFeaturesPageTest"/>
+      <class name="com.qa.verizonwireless.tests.FinalPageTest"/>
+      <class name="com.qa.verizonwireless.tests.SmartPhonePageTest"/>
+      <class name="com.qa.verizonwireless.tests.MainPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

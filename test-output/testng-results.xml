@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41399" started-at="2020-07-16T01:04:48Z" finished-at="2020-07-16T01:05:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41399" started-at="2020-07-16T01:04:48Z" finished-at="2020-07-16T01:05:29Z">
+      <class name="com.qa.verizonwireless.tests.FinalPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.verizonwireless.tests.FinalPageTest@11531931]" name="setup" is-config="true" duration-ms="35583" started-at="2020-07-15T21:04:48Z" finished-at="2020-07-15T21:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FinalPageVerify()[pri:1, instance:com.qa.verizonwireless.tests.FinalPageTest@11531931]" name="FinalPageVerify" duration-ms="14" started-at="2020-07-15T21:05:24Z" finished-at="2020-07-15T21:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalPageVerify -->
+        <test-method status="PASS" signature="VerifySelectedPhone()[pri:2, instance:com.qa.verizonwireless.tests.FinalPageTest@11531931]" name="VerifySelectedPhone" duration-ms="1737" started-at="2020-07-15T21:05:24Z" finished-at="2020-07-15T21:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectedPhone -->
+        <test-method status="PASS" signature="VerifySelectedPhoneOnChartTest()[pri:3, instance:com.qa.verizonwireless.tests.FinalPageTest@11531931]" name="VerifySelectedPhoneOnChartTest" duration-ms="3387" started-at="2020-07-15T21:05:25Z" finished-at="2020-07-15T21:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectedPhoneOnChartTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.verizonwireless.tests.FinalPageTest@11531931]" name="teardown" is-config="true" duration-ms="664" started-at="2020-07-15T21:05:29Z" finished-at="2020-07-15T21:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.verizonwireless.tests.FinalPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

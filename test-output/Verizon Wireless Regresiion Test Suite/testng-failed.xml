@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Verizon Wireless Regresiion Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Verizon Wireless Regresiion Test Suite">
+    <classes>
+      <class name="com.qa.verizonwireless.tests.PhoneFeaturesPageTest"/>
+      <class name="com.qa.verizonwireless.tests.FinalPageTest"/>
+      <class name="com.qa.verizonwireless.tests.SmartPhonePageTest"/>
+      <class name="com.qa.verizonwireless.tests.MainPageTest"/>
+    </classes>
+  </test> <!-- Verizon Wireless Regresiion Test Suite -->
+  <test name="Verizon Wireless Regresiion Test Suite(failed)">
+    <classes>
+      <class name="com.qa.verizonwireless.tests.FinalPageTest">
+        <methods>
+          <include name="FinalPageVerify"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="VerifySelectedPhone"/>
+        </methods>
+      </class> <!-- com.qa.verizonwireless.tests.FinalPageTest -->
+      <class name="com.qa.verizonwireless.tests.PhoneFeaturesPageTest">
+        <methods>
+          <include name="phoneFeaturesPageVerify"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.verizonwireless.tests.PhoneFeaturesPageTest -->
+      <class name="com.qa.verizonwireless.tests.MainPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyMainPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="phoneToSmartClick"/>
+        </methods>
+      </class> <!-- com.qa.verizonwireless.tests.MainPageTest -->
+      <class name="com.qa.verizonwireless.tests.SmartPhonePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.verizonwireless.tests.SmartPhonePageTest -->
+    </classes>
+  </test> <!-- Verizon Wireless Regresiion Test Suite(failed) -->
+</suite> <!-- Failed suite [Verizon Wireless Regresiion Test Suite] -->
